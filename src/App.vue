@@ -1,12 +1,18 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link></router-link> |
-    </div>
     <router-view/>
   </div>
 </template>
 
-<style lang="less">
+<script>
+export default {
+  name: 'App',
+  data () {
+    return {}
+  }
+}
+</script>
+
+<style lang="less" scoped>
 
 </style>
